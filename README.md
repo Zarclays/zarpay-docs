@@ -1,5 +1,7 @@
 # Zarpay API Docs 🚀
 
+[Visit Docs](https://zarpay.mintlify.app)
+
 Zarpay API Docs.
 
 ## Run Locally 🖥️
