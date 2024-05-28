@@ -63,11 +63,18 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Payments",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/initiate-payment",
+        "api-reference/endpoint/hosted-pay",
+        "api-reference/endpoint/verify-transaction"
+      ]
+    },
+
+    {
+      "group": "Payment Link",
+      "pages": [
+        "api-reference/endpoint/payment-links"
       ]
     }
   ],
