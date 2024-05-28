@@ -35,35 +35,29 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "/"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://zarpay.app/community"
+      "url": "/"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://zarpay.app/blog"
+      "url": "https://zarpay.zarclays.com"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "introduction",
+        "getting-started/getting-api-keys",
+        "getting-started/request-format"
       ]
     },
+
     {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]
