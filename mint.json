@@ -2,17 +2,17 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Zarpay",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/zarpay-icon.png",
+    "light": "/logo/zarpay-icon.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#8e17ac",
+    "light": "#DE93F0",
+    "dark": "#CD5DE9",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#D36FEB",
+      "to": "#D881EE"
     }
   },
   "topbarLinks": [
@@ -51,11 +51,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -70,9 +66,7 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
