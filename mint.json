@@ -67,15 +67,21 @@
       "pages": [
         "api-reference/endpoint/initiate-payment",
         "api-reference/endpoint/hosted-pay",
-        "api-reference/endpoint/verify-transaction"
+        "api-reference/endpoint/verfiy-transaction"
+      ]
+    },
+
+    {
+      "group": "Transactions",
+      "pages": [
+        "api-reference/endpoint/verfiy-transaction",
+        "api-reference/endpoint/transaction-records"
       ]
     },
 
     {
       "group": "Payment Link",
-      "pages": [
-        "api-reference/endpoint/payment-links"
-      ]
+      "pages": ["api-reference/endpoint/payment-links"]
     }
   ],
   "footerSocials": {
