@@ -1,4 +1,62 @@
 ---
-title: 'Initiate Payment'
-openapi: 'POST /api/v1/initiate-payment'
+title: "Initiate Payment"
+description: "This API allows you to initiate transaction by making calls from your server which returns a URL that when visited will call up our hosted pay."
 ---
+
+<Note>
+
+Authorization Any request made without the client-id key will fail with a
+401
+(Unauthorized) response code.
+
+</Note>
+
+<Warning>
+  You must include the `client-id` header in any request made to our api. The
+  `client-id` is gotten alongside with the **API** key when you create an **API
+  KEY**
+</Warning>
+
+## Request Body
+
+<Note>POST https://api/zarpay.app/v1/orders/start/{storeId}</Note>
+
+```json
+{
+  "currencyId": 0,
+  "amount": 0,
+  "customerEmail": "string",
+  "callBackUrl": "string",
+  "storeOrderId": "string"
+}
+```
+
+| Property      | Description                                                  |
+| ------------- | ------------------------------------------------------------ |
+| currenyId     | The currency Id                                              |
+| amount        | The amount you are debiting the customer                     |
+| customerEmail | The customer's email address                                 |
+| callBackUrl   | The url to redirect the user to after successful transaction |
+| storeOrderId  | The url to redirect the user to after successful transaction |
+
+## Response Body
+
+    ```json
+
+{
+"transactionReference": "string",
+"status": {},
+"baseCurrencyId": 0,
+"baseAmount": 0,
+"txFeeInBaseCurrency": 0,
+"totalInBaseCurrency": 0,
+"storeId": 0,
+"storeCurrencyId": 0,
+"storeAmount": 0,
+"customerEmail": "string",
+"callBackUrl": "string",
+"paymentUrl": "string",
+"storeOrderId": "string",
+"expiryDate": "2024-05-28T11:30:32.669Z"
+}
+```

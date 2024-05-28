@@ -15,14 +15,11 @@ Authorization Any request made without the authorization key (secret key) will f
 
 </Note>
 
+<Warning></Warning>
+
+
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+All API endpoints are authenticated using an API key. To authenticate your requests, you need to include your API key in the `client-id` header of your request. You can obtain your API key from the [Dashboard](https://zarpay.zarclays.com).
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+<Note>https://api.zarpay.app/v1 is our base endpoint</Note>
