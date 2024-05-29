@@ -2,3 +2,15 @@
 title: "Get Transaction Records"
 openapi: "GET /api/v1/transactions"
 ---
+
+<Note>https://37.220.31.33:8080/v1/orders </Note>
+
+To get a list of your transaction records, you should send a `GET` request to the above url. It takes 2 optional query parameters.
+
+<ParamField path="take" type="string">
+  This indicates the number of records to return. It is optional.
+</ParamField>
+
+<ParamField path="skip" type="string">
+  This indicates the number of records to skip. It is also optional.
+</ParamField>
