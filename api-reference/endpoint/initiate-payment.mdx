@@ -19,7 +19,7 @@ Authorization Any request made without the client-id key will fail with a
 
 ## Request Body
 
-<Note>POST https://api/zarpay.app/v1/orders/start/{storeId}</Note>
+<Note>POST https://37.220.31.33:8080/v1/orders/start/{storeId}</Note>
 
 ```json
 {
@@ -37,7 +37,7 @@ Authorization Any request made without the client-id key will fail with a
 | amount        | The amount you are debiting the customer                     |
 | customerEmail | The customer's email address                                 |
 | callBackUrl   | The url to redirect the user to after successful transaction |
-| storeOrderId  | The url to redirect the user to after successful transaction |
+| storeOrderId  | A unique order Id that the store uses to identify each order |
 
 ## Response Body
 
