@@ -57,6 +57,14 @@
         "getting-started/request-format"
       ]
     },
+    {
+      "group": "Collect Payments",
+      "pages": [
+        "collect-payments/introduction",        
+        "collect-payments/hosted-pay"
+      ]
+    },
+    
 
     {
       "group": "API Documentation",
@@ -65,16 +73,17 @@
     {
       "group": "Payments",
       "pages": [
-        "api-reference/endpoint/initiate-payment",
+        
         "api-reference/endpoint/hosted-pay",
-        "api-reference/endpoint/verfiy-transaction"
+        "api-reference/endpoint/hosted-pay/initiate-payment",
+        "api-reference/endpoint/verify-transaction"
       ]
     },
 
     {
       "group": "Transactions",
       "pages": [
-        "api-reference/endpoint/verfiy-transaction",
+        "api-reference/endpoint/verify-transaction",
         "api-reference/endpoint/transaction-records"
       ]
     },
@@ -85,8 +94,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/zarpay",
-    "github": "https://github.com/zarpay",
-    "linkedin": "https://www.linkedin.com/company/zarpay"
+    "x": "https://x.com/zarclays",
+    "github": "https://github.com/zarclays",
+    "linkedin": "https://www.linkedin.com/company/zarclays"
   }
 }
